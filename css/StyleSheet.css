@@ -1,0 +1,68 @@
+#Page{
+    display: grid;
+    grid-template-rows: [row-start] 85px [line1] 60px [line2] 550px [line3] 250px [row-end];
+    grid-template-columns: [start-col] 145px [col1] 350px [col2] 450px [col3] 450px [col4] 350px [col5] 145px [end-col];
+}
+#Heading{
+    background-color: rgb(88, 105, 122);
+    text-align: center;
+    grid-row-start: row-start;
+    grid-row-end: line1;
+    grid-column-start: start-col;
+    grid-column-end: end-col;
+}
+#FISC1Heading{
+    background-color:rgb(58, 40, 17);
+    text-align: center;
+    color: aliceblue;
+    font-size: large;
+    grid-row-start: line1;
+    grid-row-end: line2;
+    grid-column-start: start-col;
+    grid-column-end: col3; 
+}
+#FillInSheetCOl1{
+    background-color:rgb(58, 40, 17);
+    padding-top: 15pt;
+    text-align: center;
+    color: aliceblue;
+    font-size: 15pt;
+    grid-row-start: line2;
+    grid-row-end: row-end;
+    grid-column-start: start-col;
+    grid-column-end: col3;  
+}
+#FISC2Heading{
+    background-color:rgb(58, 40, 17);
+    text-align: center;
+    color: aliceblue;
+    font-size: large;
+    grid-row-start: line1;
+    grid-row-end: line2;
+    grid-column-start: col3;
+    grid-column-end: end-col; 
+}
+#FillInSheetCOl2{
+    background-color:rgb(58,40,17);
+    padding-top: 15pt;
+    text-align: center;
+    color: aliceblue;
+    font-size: 15pt;
+    grid-row-start: line2;
+    grid-row-end: row-end;
+    grid-column-start: col3;
+    grid-column-end: end-col;
+}
+#Lib{
+    display: none;
+    background-color:rgb(26, 92, 26);
+    text-align: center;
+    font-size: 25pt;
+    grid-row-start: line1;
+    grid-row-end: row-end;
+    grid-column-start: start-col;
+    grid-column-end: end-col;  
+}
+#image{
+    padding-top: 10pt;
+}
